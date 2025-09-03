@@ -40,4 +40,4 @@ Here are **10 projects** that have builded in this repo:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Code-By-Adarsh/Java-Projects.git
+git clone https://github.com/Code-By-Adarsh/Java-Projects
