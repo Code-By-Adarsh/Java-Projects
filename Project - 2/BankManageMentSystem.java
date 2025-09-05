@@ -4,28 +4,28 @@ class Bank{
     private String HolderName;
     private double Balance;
     private boolean accountCreated = false;
-    private ArrayList<String> Accounts = new ArrayList<>();
+    private HashMap<String, Double> Accounts = new HashMap<>();
 
     public void createAccount(String HolderName,double Balance){
-        if (!Accounts.contains(HolderName)){
+        if (!Accounts.containsKey(HolderName)){
             this.HolderName = HolderName;
             this.Balance = Balance;
             accountCreated = true;
-            Accounts.add(HolderName);
+            Accounts.put(HolderName,Balance);
             System.out.printf("Account successfully created on Name : %s with initial amount %.2f.",HolderName,Balance);
         }else {
             System.out.printf("Account with Name %s is already present.Please try another Name.",HolderName);
         }
-
     }
 
-    public void deposit(double Amount){
-        if (!accountCreated) {
+    public void deposit(String HolderName, double Amount){
+        if (!Accounts.containsKey(HolderName)) {
             System.out.println("❌ Please create an account first!");
             return;
         }
         if (Amount > 0){
-            Balance += Amount;
+            double Balance = Accounts.get(HolderName) + Amount;
+            Accounts.put(HolderName,Balance);
             System.out.printf("Amount $%.2f successfully deposited.",Amount);
             System.out.println(" ");
         }else {
@@ -34,17 +34,18 @@ class Bank{
         }
     }
 
-    public void withdraw(double Amount){
-        if (!accountCreated) {
+    public void withdraw(String HolderName, double Amount){
+        if (!Accounts.containsKey(HolderName)) {
             System.out.println("❌ Please create an account first!");
             return;
         }
-        if (Amount > Balance){
+        if (Amount > Accounts.get(HolderName)){
             System.out.println("Amount cannot be withdraw as balance is less.");
             System.out.println(" ");
         }else {
-            Balance -= Amount;
-            System.out.printf("Amount $%.2f successfully withdraw.",Amount);
+            double Balance = Accounts.get(HolderName)-Amount;
+            Accounts.put(HolderName,Balance);
+            System.out.printf("Amount $%.2f successfully withdrawn.",Amount);
             System.out.println(" ");
         }
     }
@@ -55,16 +56,18 @@ class Bank{
             return;
         }
         System.out.println("-----Account Details-----");
-        System.out.println("Name : "+HolderName);
-        System.out.println("Balance : $"+Balance);
+        System.out.println("Account     Balance");
+        for (Map.Entry<String,Double> e:Accounts.entrySet()){
+            System.out.println(e.getKey()+"     "+e.getValue());
+        }
     }
 
     public void deleteAccount(String HolderName){
-        if (Accounts.contains(HolderName)){
+        if (Accounts.containsKey(HolderName)){
             Accounts.remove(HolderName);
             System.out.printf("%s Account successfully removed from bank database.",HolderName);
         }else {
-            System.out.println("%s Account not found in bank database.");
+            System.out.printf("%s Account not found in bank database.",HolderName);
         }
 
     }
@@ -77,7 +80,7 @@ public class BankManageMentSystem {
     public static void main(String[] args) {
         Bank b = new Bank();
         Scanner sc = new Scanner(System.in);
-        System.out.println("---Welcome to the Smart Bank---");
+        System.out.println("\u001B[32m---Welcome to Smart Bank---\u001B[0m");
         while (true){
             System.out.println(" ");
             System.out.println("-----Menu-----\n1.Create Account\n2.Deposit Amount\n3.Withdraw Amount\n4.Account Detail\n5.Delete Account\n6.Bank Database\n7.Exit");
@@ -93,15 +96,19 @@ public class BankManageMentSystem {
                 System.out.println(" ");
                 b.createAccount(name,Amount);
             } else if (user==2) {
+                System.out.print("Enter Holder Name: ");
+                String HolderName = sc.nextLine();
                 System.out.print("Enter amount to deposit: ");
                 double Amount = sc.nextInt();
                 System.out.println(" ");
-                b.deposit(Amount);
+                b.deposit(HolderName,Amount);
             } else if (user==3) {
+                System.out.print("Enter Holder Name: ");
+                String HolderName = sc.nextLine();
                 System.out.print("Enter amount to withdraw: ");
                 double Amount = sc.nextInt();
                 System.out.println(" ");
-                b.withdraw(Amount);
+                b.withdraw(HolderName,Amount);
             }else if (user==4){
                 b.display();
             } else if (user==5) {
