@@ -88,6 +88,8 @@ class Library{
                 ReturnBookDetail.put(MemberId,IssueBookDetail.get(MemberId));
                 IssueBookDetail.remove(MemberId);
                 System.out.printf("Book %s successfully returned from ID: %d.\n",BookName,MemberId);
+                int randomindex = rand.nextInt(Books.size());
+                System.out.printf("Try this 👉 : %s.\n",Books.get(randomindex));
             }else {
                 System.out.printf("Book %s cannot returned from ID: %d as not issued.\n",BookName,MemberId);
             }
