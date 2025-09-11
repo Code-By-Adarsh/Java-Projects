@@ -23,12 +23,12 @@ This repository contains a collection of **Java CLI projects** designed to help 
 
 Here are **10 projects** that have builded in this repo:
 
-1. **Calculator 🧮** – A simple CLI calculator with addition, subtraction, multiplication, and division.  
+1. **Library Management System 📚** – Track books, issue/return books, and manage library members.  
 2. **Bank Management System 🏦** – Manage accounts, deposits, withdrawals, and balance inquiry.  
-3. **Library Management System 📚** – Track books, issue/return books, and manage library members.  
-4. **Student Grading System 🎓** – Store student marks and calculate grades & percentage.  
-5. **Tic-Tac-Toe Game ❌⭕** – Classic two-player game playable in CLI.  
-6. **To-Do List 📝** – Add, update, delete, and view tasks.  
+3. **Student Grading System 🎓** – Store student marks and calculate grades & percentage.  
+4. **Tic-Tac-Toe Game ❌⭕** – Classic two-player game playable in CLI.  
+5. **To-Do List 📝** – Add, update, delete, and view tasks.
+6. **Calculator 🧮** – A simple CLI calculator with addition, subtraction, multiplication, and division.  
 7. **Number Guessing Game 🎲** – Random number guessing game with hints.  
 8. **Simple Chatbot 🤖** – Interactive CLI chatbot for basic conversation.  
 9. **Inventory Management System 📦** – Track products, stock, and sales.  
