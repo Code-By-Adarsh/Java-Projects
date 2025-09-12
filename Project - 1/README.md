@@ -1,6 +1,6 @@
-📚 Smart Library Management System
+# 📚 Smart Library Management System
 
-Welcome to Smart Library Management System 🚀
+Welcome to **Smart Library Management System** 🚀
 A Java-based console project that allows users to register as members, contribute books, issue/return books, and view complete library details with ease.
 
 ✨ Features
