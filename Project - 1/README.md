@@ -6,34 +6,33 @@ A Java-based console project that allows users to register as members, contribut
 ✨ Features
 
 ✅ Member Registration 👤
+
 ✅ Book Contribution 📖
+
 ✅ Issue & Return Books 🔄
+
 ✅ Display Available Books 📚
+
 ✅ Contributor Details 🙌
+
 ✅ Issued & Returned Book Records 🗂️
+
 ✅ Member Details 📝
+
 ✅ Random Book Suggestion 🎲
 
 ⚙️ Installation & Usage Guide
-
-Clone this repository:
-
+1️⃣ Clone this repository
 git clone https://github.com/your-username/LibraryManagementSystem.git
 cd LibraryManagementSystem
 
-
-Compile the program:
-
+2️⃣ Compile the program
 javac LibraryManagementSystem.java
 
-
-Run the program:
-
+3️⃣ Run the program
 java LibraryManagementSystem
 
-
-Interact with the menu:
-
+4️⃣ Interact with the menu
 ======= 📚 SMART LIBRARY MENU =======
 1⃣ Member Registration
 2⃣ Contribute Book
@@ -160,6 +159,7 @@ ID     Member
 
 🎮 Demo Flow Example
 ----------Welcome to Smart Library----------
+
 👉 Enter your choice: 1
 Enter your Name: Adarsh
 🎉 Congratulation! Adarsh become a Smart Library Member with ID: 45.
