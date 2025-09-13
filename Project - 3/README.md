@@ -60,7 +60,7 @@ Each class has different subjects:
 ---
 
 ## ▶️ Example Output
----------- Welcome to the Official Narayani Challenger Convent School Grading System ----------
+---------- Welcome to the Official Narayani Challenger Convent School Grading System ----------<br>
 Note: Our school is now providing the best AI grading system tools to predict grades & percentage before result.
 
 ----- Menu -----
@@ -68,6 +68,7 @@ Note: Our school is now providing the best AI grading system tools to predict gr
 Class-1
 
 Class-2
+
 ...
 
 Class-10
@@ -85,14 +86,12 @@ Rahul got total marks: 290.00
 Percentage: 72.50
 Result: Pass
 Performance: Very Good
-yaml
-Copy code
 
 ---
 
 ## 👨‍💻 Author
 - **Adarsh Jayprakash Mishra**  
-- BSc Computer Science  
+- QA Automation Tester 
 - Passionate about **Java, OOPs, and building real-world projects** 🎯  
 
 ---
@@ -100,13 +99,11 @@ Copy code
 ## 🚀 How to Run
 1. Clone the repository  
    ```bash
-   git clone https://github.com/your-username/student-grading-system.git
+   git clone https://github.com/Code-By-Adarsh/student-grading-system.git
 2.Open in your favorite IDE (IntelliJ / Eclipse / VS Code).
 
 3.Compile and run:
-
-bash
 Copy code
 javac SGS.java
-java SGS
+java SGS<br>
 4.Enjoy grading automation 🎉
