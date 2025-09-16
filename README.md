@@ -1,4 +1,4 @@
-# Java Projects 🚀
+# Java Projects 🚀 
 
 Welcome to **Java Projects**! 🎉  
 This repository contains a collection of **Java CLI projects** designed to help me **revise and strengthen my Java concepts**. Each project focuses on different areas of Java like **OOP, data structures, algorithms, file handling**, and more. Perfect for beginners and intermediate learners! 💻✨
