@@ -75,17 +75,17 @@ Class-10
 
 Exit
 
-Enter your choice: 1
-Enter your Name: Rahul
-Enter marks of English: 75
-Enter marks of Hindi: 65
-Enter marks of Math: 80
-Enter marks of EVS: 70
+Enter your choice: 1<br>
+Enter your Name: Rahul<br>
+Enter marks of English: 75<br>
+Enter marks of Hindi: 65<br>
+Enter marks of Math: 80<br>
+Enter marks of EVS: 70<br>
 
-Rahul got total marks: 290.00
-Percentage: 72.50
-Result: Pass
-Performance: Very Good
+Rahul got total marks: 290.00<br>
+Percentage: 72.50<br>
+Result: Pass<br>
+Performance: Very Good<br>
 
 ---
 
@@ -102,8 +102,8 @@ Performance: Very Good
    git clone https://github.com/Code-By-Adarsh/student-grading-system.git
 2.Open in your favorite IDE (IntelliJ / Eclipse / VS Code).
 
-3.Compile and run:
-Copy code
-javac SGS.java
+3.Compile and run:<br>
+Copy code<br>
+javac SGS.java<br>
 java SGS<br>
 4.Enjoy grading automation 🎉
