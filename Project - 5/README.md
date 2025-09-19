@@ -1,54 +1,49 @@
-📝 Smart To-Do List (Java CLI Project)
+# 📝 Smart To-Do List (Java CLI Project)
 
-Welcome to the Smart To-Do List — a simple and efficient Command-Line Interface (CLI) project made using Java. 🚀
-This project allows you to add, remove, complete, and display tasks easily. ✔️
+Welcome to the **Smart To-Do List** — a simple and efficient **Command-Line Interface (CLI)** project made using **Java**. 🚀  
+This project allows you to **add, remove, complete, and display tasks** easily. ✔️
 
-✨ Features
+---
 
-➕ Add Task — Add a new task to your to-do list
+## ✨ Features
+- ➕ **Add Task** — Add a new task to your to-do list  
+- ✅ **Mark as Completed** — Move tasks to completed section  
+- ❌ **Remove Task** — Delete tasks from your active list  
+- 📋 **View Active Tasks** — See the list of your pending tasks  
+- 🏆 **View Completed Tasks** — See all your completed tasks  
+- 🔄 **Error Handling** — Handles invalid inputs gracefully  
+- ⏳ **Exit with delay effect** — Exits the program with a 5-second delay (for realistic effect)  
 
-✅ Mark as Completed — Move tasks to completed section
+---
 
-❌ Remove Task — Delete tasks from your active list
+## 🛠️ Technologies Used
+- ☕ **Java** (Core)  
+- 💻 **Scanner class** for user input  
+- 📂 **ArrayList** for task storage  
 
-📋 View Active Tasks — See the list of your pending tasks
+---
 
-🏆 View Completed Tasks — See all your completed tasks
+## 🚀 How to Run
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/Code-By-Adarsh/Java-Projects.git
 
-🔄 Error Handling — Handles invalid inputs gracefully
+2. Navigate to project folder:
+   ```bash
+   cd Project - 5
 
-⏳ Exit with delay effect — Exits the program with a 5-second delay (for realistic effect)
+3. Compile the program:
+   ```bash
+   javac TDL.java
 
-🛠️ Technologies Used
+4. Run the program:
+   ```bash
+   java TDL
+   
+---
 
-☕ Java (Core)
+## 📖 Usage Example
 
-💻 Scanner class for user input
-
-📂 ArrayList for task storage
-
-🚀 How to Run
-
-Clone this repository:
-
-git clone https://github.com/your-username/Smart-ToDo-List.git
-
-
-Navigate to project folder:
-
-cd Smart-ToDo-List
-
-
-Compile the program:
-
-javac TDL.java
-
-
-Run the program:
-
-java TDL
-
-📖 Usage Example
 -----Welcome to the Smart To-Do List-----
 
 ---Menu---
@@ -58,10 +53,12 @@ java TDL
 4. To Display Task
 5. To Display Completed Task
 6. Exit
---------------------------------------
+
 Enter your Choice:
 
-📌 Future Improvements
+---
+
+## 📌 Future Improvements
 
 🖥️ Add a Graphical User Interface (GUI) version
 
@@ -71,20 +68,25 @@ Enter your Choice:
 
 🔔 Add Task Notifications & Reminders
 
-🤝 Contributing
+---
 
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
+
 Feel free to fork this project and submit a pull request. 🔥
 
-📜 License
+---
 
-This project is licensed under the MIT License — see the LICENSE
- file for details. ⚖️
+## 📜 License
+This project is licensed under the **MIT License** — see the [LICENSE file](./LICENSE)
+ for details. ⚖️
 
-👨‍💻 Author
+---
 
+## 👨‍💻 Author
 Adarsh Jayprakash Mishra ✨
+
 🎓 BSc Computer Science Student
+
 🌐 Passionate about learning & building real-world projects
 
-🔥 Made with ❤️ in Java ☕
