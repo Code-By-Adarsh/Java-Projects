@@ -52,33 +52,30 @@ Welcome to the **Smart Number Guessing Game**! A simple, fun, and interactive co
 
 🎮 --------------- Welcome to the Smart Number Guessing Game ------------------- 🎮
 
-📜 --- Rules:
-1️⃣ You have to choose two numbers.
-2️⃣ On every wrong guess you will get a hint.
-3️⃣ Answer will be generated from your numbers.
-4️⃣ Attempts will be counted.
-5️⃣ For quit at any stage just type 👉 Quit
-🔢 Enter Starting Number: 1
-🔢 Enter Ending Number: 50
+📜 --- Rules:<br>
+1️⃣ You have to choose two numbers.<br>
+2️⃣ On every wrong guess you will get a hint.<br>
+3️⃣ Answer will be generated from your numbers.<br>
+4️⃣ Attempts will be counted.<br>
+5️⃣ For quit at any stage just type 👉 Quit<br>
+🔢 Enter Starting Number: 1<br>
+🔢 Enter Ending Number: 50<br>
 
-🤔 Enter your guess: 25
-❌ Oh oh! Wrong guess
+🤔 Enter your guess: 25<br>
+❌ Oh oh! Wrong guess<br>
 🔼 Hint: Your guess is less than the answer.
 
-🤔 Enter your guess: 40
-❌ Oh oh! Wrong guess
+🤔 Enter your guess: 40<br>
+❌ Oh oh! Wrong guess<br>
 🔽 Hint: Your guess is greater than the answer.
 
-🤔 Enter your guess: 37
-🎉 Congrats! You win 🏆
+🤔 Enter your guess: 37<br>
+🎉 Congrats! You win 🏆<br>
 📊 Attempts: 3
 
-🔄 Do you want to play again? (yes/no): no
-🙏 Thanks for playing, Goodbye!
+🔄 Do you want to play again? (yes/no): no<br>
+🙏 Thanks for playing, Goodbye!<br>
 👀 See you again!
-
-yaml
-Copy code
 
 ---
 
@@ -93,8 +90,7 @@ Copy code
 ## 🔗 Author
 
 **Adarsh Jayprakash Mishra**  
-GitHub: [Your GitHub link]  
-Email: [Your Email]  
+Passoniate QA Automation Tester
 
 ---
 
